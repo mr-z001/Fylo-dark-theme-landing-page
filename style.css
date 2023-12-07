@@ -1,0 +1,53 @@
+/* Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav-Bar */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-bar .logo img {
+    width: 80px;
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-bar ul li {
+    display: inline;
+    padding: 0 1rem;
+}
+
+/* Hero-Section */
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Utility Class */
+
+.container {
+    padding: 0 1.5rem;
+}
